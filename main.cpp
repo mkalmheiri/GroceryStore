@@ -46,12 +46,12 @@ if(numItems<5)
   
   for(int numItems=0; numItems<5; numItems++)
 {
-  cout<< numItems+1;
+  cout<< numItems+1 <<" ";
 
 if( list[numItems]!="")
     {
-    cout<<" "<<list[numItems]<<endl;
+    cout<<" "<<list[numItems];
     }
-}    
+} cout <<endl;   
   return 0;
 }
