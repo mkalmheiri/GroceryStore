@@ -42,7 +42,7 @@ if(numItems<5)
 }
 } while(input!='q' && input!='Q');
 
-  cout<<"\n==ITEMS TO BUY==\n";
+  cout<<"==ITEMS TO BUY==";
   
   for(int numItems=0; numItems<5; numItems++)
 {
